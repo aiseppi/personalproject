@@ -1,0 +1,14 @@
+main{
+    height: 100vh;
+    background-image: url("src/assets/backgrounds/constellations.jpg"),
+    linear-gradient(rgba(34, 238, 208, 0.2),rgba(211, 211, 211, 0.2));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+  background-size: 100% 150vh;
+}
+.name {
+    color: white;
+}
+.title {
+    color: white;
+}
