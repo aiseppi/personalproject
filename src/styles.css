@@ -1,5 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
-body, h1 {
+* {
     margin: 0;
-
+    padding: 0;
+    /* this changes box model so border and padding are no longer added 
+    to total width & height of a box */
+    box-sizing: border-box;
 }
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    /* 1.7x bigger than the default line height */
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}
+
+@font-face{
+    font-family: 'round geometric';
+    src: url('src/assets/Fonts/Round Geometric.ttf') format('truetype');
+  }
