@@ -17,16 +17,17 @@
   width: 100vw;
   top: 0px;
   padding: 5px;
+  box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.26);
 }
 .logo-text-container {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
 }
 .logo {
   height: 80px;
-  margin: 5px;
+  /* margin: 5px; */
   margin-bottom: -25px;
 }
 /* .logo-box {
@@ -43,19 +44,24 @@
   flex-direction: column;
   color: black;
   text-transform: uppercase;
-  margin-top: 10px;
+  /* margin-top: 10px; */
+  margin-top: 5px;
+  margin-left: -31px;
 }
 .heading-primary-main {
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 5px;
+  margin-top: 10px;
+  margin-left: 11px;
   animation-name: moveInLeft;
 }
 .heading-primary-sub {
   font-size: 0.5rem;
   font-weight: 500;
-  letter-spacing: 7px;
-  margin-bottom: 15px;
+  letter-spacing: 6px;
+  margin-left: 35px;
+  /* margin-bottom: 15px; */
 }
 .nav-container {
   /* position: fixed; */
@@ -124,8 +130,9 @@
   text-decoration: none;
   text-transform: uppercase;
   font-size: 10px;
-  padding: 5px 20px;
+  padding: 5px 15px;
   margin-left: 5px;
+  margin-top: 10px;
   border-radius: 100px;
   /* treats it like a normal block element */
   display: inline-block;

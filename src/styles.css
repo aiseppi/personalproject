@@ -13,9 +13,6 @@ body {
   /* 1.7x bigger than the default line height */
   line-height: 1.7;
   color: #777;
-  /* padding: 30px;
-     */
-  padding: 10px;
 }
 
 @font-face {

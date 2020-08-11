@@ -1,3 +1,5 @@
 .about-me-main-container {
-  margin-top: 200px;
+  margin: 120px 10px 10px 10px;
+  display: flex;
+  justify-content: center;
 }
